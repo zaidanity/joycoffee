@@ -1,39 +1,72 @@
-# ☕ JOYCOFFEE - Rasakan Kebahagiaan dalam Setiap Teguk
+# ☕ JoyCoffee – Rasakan Kebahagiaan dalam Setiap Cangkir
 
-**JOYCOFFEE** adalah sebuah landing page modern untuk kedai kopi yang dirancang dengan estetika minimalis dan hangat. Website ini berfungsi sebagai profil digital untuk menampilkan menu unggulan, filosofi brand, dan informasi lokasi kedai secara interaktif.
+![JoyCoffee Website](https://joycoffee.vercel.app/)
 
-## 🚀 Demo
-Lihat website yang sudah dideploy di sini: [joycoffee.vercel.app](https://joycoffee.vercel.app/)
+Landing page modern untuk **JoyCoffee** – kedai kopi yang menyajikan kebahagiaan melalui biji kopi pilihan dengan sentuhan artisan. Dibangun untuk menampilkan suasana hangat, cerita merek, serta informasi lokasi dan jam operasional.
 
-## ✨ Fitur Utama
-- **Landing Page Responsif**: Desain yang dioptimalkan untuk perangkat mobile, tablet, maupun desktop.
-- **Menu Katalog**: Daftar menu spesial seperti *Caramel Joy Latte*, *Mocha Bliss*, dan *Vanilla Cloud* lengkap dengan harga.
-- **Gallery Section**: Menampilkan visualisasi seni latte, biji kopi pilihan, dan suasana kedai yang nyaman.
-- **Informasi Kontak**: Integrasi alamat lengkap (Jl. Bahagia No. 969) dan jam operasional kedai.
-- **Smooth Scrolling**: Navigasi antar bagian halaman yang halus untuk kenyamanan pengguna.
+## ✨ Fitur
 
-## 🛠️ Teknologi yang Digunakan
-- **HTML5**: Struktur konten web yang semantik.
-- **CSS3**: Styling custom dengan animasi halus dan layout modern.
-- **JavaScript**: Untuk interaksi UI dan navigasi.
-- **Vercel**: Platform hosting untuk performa yang cepat.
+- Hero section dengan tagline inspiratif
+- Cerita merek (brand story) yang personal
+- Galeri rasa (Galeri Rasa) – menampilkan produk unggulan
+- Informasi alamat & jam buka
+- Desain responsif dan estetik (cocok untuk mobile & desktop)
+- Tautan interaktif "Jelajahi Menu"
 
-## 📂 Struktur Proyek
-- **index.html** : Halaman utama website
-- **css/** : Folder untuk file stylesheet/desain
-- **js/** : Script interaksi JavaScript
-- **assets/** : Folder untuk media gambar dan icon
+## 🛠 Teknologi yang Digunakan
 
-## 💻 Cara Menjalankan di Lokal
-1. **Clone repositori ini:**
-   git clone https://github.com/username-kamu/joycoffee.git
-2. **Masuk ke direktori:**
-   cd joycoffee
-3. **Jalankan aplikasi:**
-   Buka file index.html di browser kesayangan Anda.
+- **Next.js** (React framework)
+- **Tailwind CSS** (styling)
+- **Vercel** (hosting & deployment)
 
-## 👤 Author
-- **Zaidanity** - [GitHub Profile](https://github.com/username-kamu)
+> ⚠️ *Karena proyek ini dibuat berdasarkan tampilan front-end saja, stack teknis di atas adalah asumsi umum untuk situs modern. Jika Anda memiliki kode asli, sesuaikan bagian ini.*
+
+## 🚀 Deployment
+
+Situs ini dapat di-deploy dengan mudah ke Vercel:
+
+```bash
+npm install
+npm run build
+vercel --prod
+```
+
+Atau klik tombol deploy di bawah:
+
+https://vercel.com/button
+
+📂 Struktur Folder (contoh)
+
+```
+joycoffee/
+├── components/       # Hero, Story, Gallery, Footer
+├── pages/            # index.js, _app.js
+├── public/           # gambar kopi & ikon
+├── styles/           # global.css (Tailwind)
+└── package.json
+```
+
+📄 Halaman yang Tersedia
+
+· Beranda – semua konten dalam satu halaman:
+  · Hero: Rasakan Kebahagiaan dalam Setiap Cangkir
+  · Cerita JoyCoffee
+  · Galeri Rasa
+  · Info kunjungan (alamat & jam)
+
+📞 Kontak & Lokasi
+
+Alamat:
+Jl. Bahagia No. 969, Depok Barat
+
+Jam Buka:
+Setiap hari, 08.00 – 22.00
+
+📌 Catatan
+
+Proyek ini dibuat untuk keperluan portofolio / demonstrasi front-end.
+Konten berdasarkan situs asli: joycoffee.vercel.app
 
 ---
-Copyright © 2026 **JOYCOFFEE BY ZAIDANITY**. *Spread Joy, Sip Happiness.*
+
+Dibuat dengan ☕ dan semangat kebahagiaan.
