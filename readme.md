@@ -39,11 +39,9 @@ https://vercel.com/button
 
 ```
 joycoffee/
-├── components/       # Hero, Story, Gallery, Footer
-├── pages/            # index.js, _app.js
-├── public/           # gambar kopi & ikon
-├── styles/           # global.css (Tailwind)
-└── package.json
+├── index.htnml
+├── script.js
+└── styles.css
 ```
 
 📄 Halaman yang Tersedia
@@ -65,8 +63,6 @@ Setiap hari, 08.00 – 22.00
 📌 Catatan
 
 Proyek ini dibuat untuk keperluan portofolio / demonstrasi front-end.
-Konten berdasarkan situs asli: joycoffee.vercel.app
-
 ---
 
 Dibuat dengan ☕ dan semangat kebahagiaan.
